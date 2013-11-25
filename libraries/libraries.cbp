@@ -1,0 +1,804 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="libraries" />
+		<Option makefile_is_custom="1" />
+		<Option execution_dir="." />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="all">
+				<Option output="libraries" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command="$make -f $makefile" />
+					<CompileFile command="$make -f $makefile $file" />
+					<Clean command="$make -f $makefile clean" />
+					<DistClean command="$make -f $makefile distclean$target" />
+					<AskRebuildNeeded command="$make -q -f $makefile" />
+					<SilentBuild command="$make -s -f $makefile" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Makefile">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Makefile.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblber/Makefile">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblber/Makefile.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblber/assert.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblber/bprint.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblber/debug.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblber/decode.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblber/dtest.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblber/encode.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblber/etest.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblber/idtest.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblber/io.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblber/lber-int.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblber/memory.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblber/nt_err.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblber/options.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblber/sockbuf.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblber/stdio.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/Makefile">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/Makefile.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/abandon.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/add.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/addentry.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/apitest.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/assertion.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/bind.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/cancel.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/charray.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/compare.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/controls.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/cyrus.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/dds.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/delete.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/deref.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/dnssrv.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/dntest.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/error.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/extended.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/fetch.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/filter.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/free.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/ftest.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/getattr.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/getdn.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/getentry.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/getvalues.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/gssapi.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/init.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/ldap-int.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/ldap-tls.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/ldap.conf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/ldap_sync.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/ldif.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/messages.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/modify.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/modrdn.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/open.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/options.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/os-ip.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/os-local.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/pagectrl.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/passwd.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/ppolicy.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/print.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/references.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/request.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/result.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/sasl.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/sbind.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/schema.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/search.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/sort.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/sortctrl.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/stctrl.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/string.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/t61.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/test.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/tls2.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/tls_g.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/tls_m.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/tls_o.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/turn.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/txn.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/unbind.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/url.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/urltest.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/utf-8-conv.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/utf-8.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/util-int.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/vlvctrl.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap/whoami.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap_r/Makefile">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap_r/Makefile.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap_r/ldap_thr_debug.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap_r/rdwr.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap_r/rmutex.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap_r/rq.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap_r/thr_cthreads.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap_r/thr_debug.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap_r/thr_nt.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap_r/thr_posix.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap_r/thr_pth.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap_r/thr_stub.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap_r/thr_thr.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap_r/threads.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="libldap_r/tpool.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblmdb/CHANGES">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblmdb/COPYRIGHT">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblmdb/Doxyfile">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblmdb/LICENSE">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblmdb/Makefile">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblmdb/lmdb.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblmdb/mdb.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblmdb/mdb_copy.1">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblmdb/mdb_copy.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblmdb/mdb_stat.1">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblmdb/mdb_stat.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblmdb/midl.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblmdb/midl.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblmdb/mtest.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblmdb/mtest2.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblmdb/mtest3.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblmdb/mtest4.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblmdb/mtest5.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblmdb/mtest6.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblmdb/sample-bdb.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblmdb/sample-mdb.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/CompositionExclusions.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/Makefile">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/Makefile.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/UCD-Terms">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/UnicodeData.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/ucdata/MUTTUCData.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/ucdata/README">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/ucdata/api.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/ucdata/bidiapi.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/ucdata/format.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/ucdata/ucdata.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/ucdata/ucdata.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/ucdata/ucdata.man">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/ucdata/ucgendat.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/ucdata/ucpgba.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/ucdata/ucpgba.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/ucdata/ucpgba.man">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/ucdata/uctable.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/ucstr.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/ure/README">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/ure/ure.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/ure/ure.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/ure/urestubs.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/utbm/README">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/utbm/utbm.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/utbm/utbm.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblunicode/utbm/utbmstub.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/Makefile">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/Makefile.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/avl.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/base64.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/detach.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/entropy.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/getopt.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/getpass.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/getpeereid.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/hash.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/lockf.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/md5.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/memcmp.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/meter.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/ntservice.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/passfile.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/passwd.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/ptest.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/sasl.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/setproctitle.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/sha1.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/signal.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/slapdmsg.bin">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/slapdmsg.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/slapdmsg.mc">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/slapdmsg.rc">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/sockpair.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/tavl.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/testavl.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/testtavl.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/utils.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="liblutil/uuid.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="librewrite/Copyright">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="librewrite/Makefile">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="librewrite/Makefile.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="librewrite/RATIONALE">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="librewrite/config.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="librewrite/context.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="librewrite/info.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="librewrite/ldapmap.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="librewrite/map.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="librewrite/params.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="librewrite/parse.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="librewrite/rewrite-int.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="librewrite/rewrite-map.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="librewrite/rewrite.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="librewrite/rule.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="librewrite/session.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="librewrite/subst.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="librewrite/var.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="librewrite/xmap.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

@@ -1,0 +1,1156 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="servers" />
+		<Option makefile_is_custom="1" />
+		<Option execution_dir="." />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="all">
+				<Option output="servers" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command="$make -f $makefile" />
+					<CompileFile command="$make -f $makefile $file" />
+					<Clean command="$make -f $makefile clean" />
+					<DistClean command="$make -f $makefile distclean$target" />
+					<AskRebuildNeeded command="$make -q -f $makefile" />
+					<SilentBuild command="$make -s -f $makefile" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Makefile" />
+		<Unit filename="Makefile.in" />
+		<Unit filename="Makefile~" />
+		<Unit filename="slapd/DB_CONFIG" />
+		<Unit filename="slapd/Makefile" />
+		<Unit filename="slapd/Makefile.in" />
+		<Unit filename="slapd/abandon.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/aci.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/acl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/aclparse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/ad.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/add.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/alock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/alock.h" />
+		<Unit filename="slapd/at.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/attr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/ava.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/Makefile" />
+		<Unit filename="slapd/back-bdb/Makefile.in" />
+		<Unit filename="slapd/back-bdb/add.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/attr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/back-bdb.h" />
+		<Unit filename="slapd/back-bdb/bind.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/cache.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/compare.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/dbcache.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/delete.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/dn2entry.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/dn2id.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/error.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/extended.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/filterindex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/id2entry.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/idl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/idl.h" />
+		<Unit filename="slapd/back-bdb/index.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/key.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/modify.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/modrdn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/monitor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/nextid.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/operational.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/proto-bdb.h" />
+		<Unit filename="slapd/back-bdb/referral.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/search.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/tools.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-bdb/trans.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-dnssrv/Makefile" />
+		<Unit filename="slapd/back-dnssrv/Makefile.in" />
+		<Unit filename="slapd/back-dnssrv/bind.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-dnssrv/compare.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-dnssrv/config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-dnssrv/init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-dnssrv/proto-dnssrv.h" />
+		<Unit filename="slapd/back-dnssrv/referral.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-dnssrv/search.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/Makefile" />
+		<Unit filename="slapd/back-hdb/Makefile.in" />
+		<Unit filename="slapd/back-hdb/add.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/attr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/back-bdb.h" />
+		<Unit filename="slapd/back-hdb/bind.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/cache.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/compare.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/dbcache.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/delete.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/dn2entry.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/dn2id.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/error.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/extended.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/filterindex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/id2entry.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/idl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/index.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/key.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/modify.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/modrdn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/monitor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/nextid.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/operational.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/referral.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/search.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/tools.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-hdb/trans.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-ldap/Makefile" />
+		<Unit filename="slapd/back-ldap/Makefile.in" />
+		<Unit filename="slapd/back-ldap/TODO.proxy" />
+		<Unit filename="slapd/back-ldap/add.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-ldap/back-ldap.h" />
+		<Unit filename="slapd/back-ldap/bind.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-ldap/chain.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-ldap/compare.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-ldap/config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-ldap/delete.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-ldap/distproc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-ldap/extended.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-ldap/init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-ldap/modify.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-ldap/modrdn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-ldap/monitor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-ldap/pbind.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-ldap/proto-ldap.h" />
+		<Unit filename="slapd/back-ldap/search.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-ldap/unbind.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-ldif/Makefile" />
+		<Unit filename="slapd/back-ldif/Makefile.in" />
+		<Unit filename="slapd/back-ldif/Makefile~" />
+		<Unit filename="slapd/back-ldif/ldif.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-mdb/Makefile" />
+		<Unit filename="slapd/back-mdb/Makefile.in" />
+		<Unit filename="slapd/back-mdb/add.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-mdb/attr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-mdb/back-mdb.h" />
+		<Unit filename="slapd/back-mdb/bind.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-mdb/compare.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-mdb/config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-mdb/delete.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-mdb/dn2entry.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-mdb/dn2id.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-mdb/extended.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-mdb/filterindex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-mdb/id2entry.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-mdb/idl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-mdb/idl.h" />
+		<Unit filename="slapd/back-mdb/index.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-mdb/init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-mdb/key.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-mdb/modify.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-mdb/modrdn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-mdb/monitor.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-mdb/nextid.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-mdb/operational.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-mdb/proto-mdb.h" />
+		<Unit filename="slapd/back-mdb/referral.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-mdb/search.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-mdb/tools.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-meta/Makefile" />
+		<Unit filename="slapd/back-meta/Makefile.in" />
+		<Unit filename="slapd/back-meta/add.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-meta/back-meta.h" />
+		<Unit filename="slapd/back-meta/bind.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-meta/candidates.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-meta/compare.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-meta/config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-meta/conn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-meta/delete.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-meta/dncache.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-meta/init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-meta/map.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-meta/modify.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-meta/modrdn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-meta/proto-meta.h" />
+		<Unit filename="slapd/back-meta/search.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-meta/suffixmassage.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-meta/unbind.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-monitor/Makefile" />
+		<Unit filename="slapd/back-monitor/Makefile.in" />
+		<Unit filename="slapd/back-monitor/README" />
+		<Unit filename="slapd/back-monitor/back-monitor.h" />
+		<Unit filename="slapd/back-monitor/backend.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-monitor/bind.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-monitor/cache.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-monitor/compare.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-monitor/conn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-monitor/database.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-monitor/entry.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-monitor/init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-monitor/listener.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-monitor/log.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-monitor/modify.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-monitor/operation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-monitor/operational.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-monitor/overlay.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-monitor/proto-back-monitor.h" />
+		<Unit filename="slapd/back-monitor/rww.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-monitor/search.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-monitor/sent.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-monitor/thread.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-monitor/time.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-ndb/Makefile" />
+		<Unit filename="slapd/back-ndb/Makefile.in" />
+		<Unit filename="slapd/back-ndb/TODO" />
+		<Unit filename="slapd/back-ndb/add.cpp" />
+		<Unit filename="slapd/back-ndb/attrsets.conf" />
+		<Unit filename="slapd/back-ndb/back-ndb.h" />
+		<Unit filename="slapd/back-ndb/bind.cpp" />
+		<Unit filename="slapd/back-ndb/compare.cpp" />
+		<Unit filename="slapd/back-ndb/config.cpp" />
+		<Unit filename="slapd/back-ndb/delete.cpp" />
+		<Unit filename="slapd/back-ndb/init.cpp" />
+		<Unit filename="slapd/back-ndb/modify.cpp" />
+		<Unit filename="slapd/back-ndb/modrdn.cpp" />
+		<Unit filename="slapd/back-ndb/ndbio.cpp" />
+		<Unit filename="slapd/back-ndb/proto-ndb.h" />
+		<Unit filename="slapd/back-ndb/search.cpp" />
+		<Unit filename="slapd/back-ndb/tools.cpp" />
+		<Unit filename="slapd/back-null/Makefile" />
+		<Unit filename="slapd/back-null/Makefile.in" />
+		<Unit filename="slapd/back-null/README" />
+		<Unit filename="slapd/back-null/null.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-passwd/Makefile" />
+		<Unit filename="slapd/back-passwd/Makefile.in" />
+		<Unit filename="slapd/back-passwd/back-passwd.h" />
+		<Unit filename="slapd/back-passwd/config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-passwd/init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-passwd/proto-passwd.h" />
+		<Unit filename="slapd/back-passwd/search.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-perl/Makefile" />
+		<Unit filename="slapd/back-perl/Makefile.in" />
+		<Unit filename="slapd/back-perl/README" />
+		<Unit filename="slapd/back-perl/SampleLDAP.pm" />
+		<Unit filename="slapd/back-perl/add.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-perl/asperl_undefs.h" />
+		<Unit filename="slapd/back-perl/bind.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-perl/close.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-perl/compare.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-perl/config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-perl/delete.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-perl/init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-perl/modify.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-perl/modrdn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-perl/perl_back.h" />
+		<Unit filename="slapd/back-perl/proto-perl.h" />
+		<Unit filename="slapd/back-perl/search.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-relay/Makefile" />
+		<Unit filename="slapd/back-relay/Makefile.in" />
+		<Unit filename="slapd/back-relay/README" />
+		<Unit filename="slapd/back-relay/back-relay.h" />
+		<Unit filename="slapd/back-relay/init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-relay/op.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-relay/proto-back-relay.h" />
+		<Unit filename="slapd/back-shell/Makefile" />
+		<Unit filename="slapd/back-shell/Makefile.in" />
+		<Unit filename="slapd/back-shell/add.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-shell/bind.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-shell/compare.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-shell/config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-shell/delete.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-shell/fork.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-shell/init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-shell/modify.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-shell/modrdn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-shell/proto-shell.h" />
+		<Unit filename="slapd/back-shell/result.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-shell/search.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-shell/searchexample.conf" />
+		<Unit filename="slapd/back-shell/searchexample.sh" />
+		<Unit filename="slapd/back-shell/shell.h" />
+		<Unit filename="slapd/back-shell/unbind.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sock/Makefile" />
+		<Unit filename="slapd/back-sock/Makefile.in" />
+		<Unit filename="slapd/back-sock/add.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sock/back-sock.h" />
+		<Unit filename="slapd/back-sock/bind.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sock/compare.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sock/config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sock/delete.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sock/init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sock/modify.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sock/modrdn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sock/opensock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sock/proto-sock.h" />
+		<Unit filename="slapd/back-sock/result.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sock/search.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sock/searchexample.conf" />
+		<Unit filename="slapd/back-sock/searchexample.pl" />
+		<Unit filename="slapd/back-sock/unbind.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sql/Makefile" />
+		<Unit filename="slapd/back-sql/Makefile.in" />
+		<Unit filename="slapd/back-sql/add.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sql/api.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sql/back-sql.h" />
+		<Unit filename="slapd/back-sql/bind.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sql/compare.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sql/config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sql/delete.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sql/docs/bugs" />
+		<Unit filename="slapd/back-sql/docs/concept" />
+		<Unit filename="slapd/back-sql/docs/install" />
+		<Unit filename="slapd/back-sql/docs/platforms" />
+		<Unit filename="slapd/back-sql/docs/todo" />
+		<Unit filename="slapd/back-sql/entry-id.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sql/init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sql/modify.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sql/modrdn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sql/operational.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sql/proto-sql.h" />
+		<Unit filename="slapd/back-sql/rdbms_depend/README" />
+		<Unit filename="slapd/back-sql/rdbms_depend/ibmdb2/backsql_create.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/ibmdb2/backsql_drop.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/ibmdb2/slapd.conf" />
+		<Unit filename="slapd/back-sql/rdbms_depend/ibmdb2/testdb_create.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/ibmdb2/testdb_data.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/ibmdb2/testdb_drop.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/ibmdb2/testdb_metadata.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/mssql/backsql_create.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/mssql/backsql_drop.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/mssql/slapd.conf" />
+		<Unit filename="slapd/back-sql/rdbms_depend/mssql/testdb_create.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/mssql/testdb_data.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/mssql/testdb_drop.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/mssql/testdb_metadata.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/mysql/backsql_create.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/mysql/backsql_drop.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/mysql/slapd.conf" />
+		<Unit filename="slapd/back-sql/rdbms_depend/mysql/testdb_create.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/mysql/testdb_data.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/mysql/testdb_drop.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/mysql/testdb_metadata.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/oracle/backsql_create.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/oracle/backsql_drop.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/oracle/slapd.conf" />
+		<Unit filename="slapd/back-sql/rdbms_depend/oracle/testdb_create.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/oracle/testdb_data.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/oracle/testdb_drop.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/oracle/testdb_metadata.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/pgsql/backsql_create.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/pgsql/backsql_drop.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/pgsql/slapd.conf" />
+		<Unit filename="slapd/back-sql/rdbms_depend/pgsql/testdb_create.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/pgsql/testdb_data.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/pgsql/testdb_drop.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/pgsql/testdb_metadata.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/timesten/backsql_create.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/timesten/backsql_drop.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/timesten/create_schema.sh" />
+		<Unit filename="slapd/back-sql/rdbms_depend/timesten/dnreverse/Makefile" />
+		<Unit filename="slapd/back-sql/rdbms_depend/timesten/dnreverse/dnreverse.cpp" />
+		<Unit filename="slapd/back-sql/rdbms_depend/timesten/slapd.conf" />
+		<Unit filename="slapd/back-sql/rdbms_depend/timesten/testdb_create.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/timesten/testdb_data.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/timesten/testdb_drop.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/timesten/testdb_metadata.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/timesten/ttcreate_schema.sh" />
+		<Unit filename="slapd/back-sql/rdbms_depend/timesten/tttestdb_create.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/timesten/tttestdb_data.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/timesten/tttestdb_drop.sql" />
+		<Unit filename="slapd/back-sql/rdbms_depend/timesten/tttestdb_metadata.sql" />
+		<Unit filename="slapd/back-sql/schema-map.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sql/search.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sql/sql-wrap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/back-sql/util.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/backend.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/backends.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/backglue.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/backover.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/bconfig.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/bind.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/cancel.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/ch_malloc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/compare.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/component.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/component.h" />
+		<Unit filename="slapd/config.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/config.h" />
+		<Unit filename="slapd/connection.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/controls.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/cr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/ctxcsn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/daemon.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/delete.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/dn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/entry.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/extended.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/filter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/filterentry.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/frontend.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/globals.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/index.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/ldapsync.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/limits.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/lock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/matchedValues.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/modify.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/modrdn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/mods.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/module.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/mr.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/mra.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/nt_svc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/oc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/oidm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/operation.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/operational.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/Makefile" />
+		<Unit filename="slapd/overlays/Makefile.in" />
+		<Unit filename="slapd/overlays/README" />
+		<Unit filename="slapd/overlays/accesslog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/auditlog.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/collect.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/constraint.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/dds.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/deref.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/dyngroup.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/dynlist.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/memberof.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/overlays.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/pcache.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/ppolicy.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/refint.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/retcode.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/rwm.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/rwm.h" />
+		<Unit filename="slapd/overlays/rwmconf.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/rwmdn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/rwmmap.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/seqmod.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/slapover.txt" />
+		<Unit filename="slapd/overlays/sssvlv.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/statover.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/syncprov.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/translucent.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/unique.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/overlays/valsort.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/passwd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/phonetic.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/proto-slap.h" />
+		<Unit filename="slapd/referral.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/result.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/root_dse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/sasl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/saslauthz.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/schema.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/schema/README" />
+		<Unit filename="slapd/schema/collective.ldif" />
+		<Unit filename="slapd/schema/collective.schema" />
+		<Unit filename="slapd/schema/corba.ldif" />
+		<Unit filename="slapd/schema/corba.schema" />
+		<Unit filename="slapd/schema/core.ldif" />
+		<Unit filename="slapd/schema/core.schema" />
+		<Unit filename="slapd/schema/cosine.ldif" />
+		<Unit filename="slapd/schema/cosine.schema" />
+		<Unit filename="slapd/schema/duaconf.ldif" />
+		<Unit filename="slapd/schema/duaconf.schema" />
+		<Unit filename="slapd/schema/dyngroup.ldif" />
+		<Unit filename="slapd/schema/dyngroup.schema" />
+		<Unit filename="slapd/schema/inetorgperson.ldif" />
+		<Unit filename="slapd/schema/inetorgperson.schema" />
+		<Unit filename="slapd/schema/java.ldif" />
+		<Unit filename="slapd/schema/java.schema" />
+		<Unit filename="slapd/schema/misc.ldif" />
+		<Unit filename="slapd/schema/misc.schema" />
+		<Unit filename="slapd/schema/nis.ldif" />
+		<Unit filename="slapd/schema/nis.schema" />
+		<Unit filename="slapd/schema/openldap.ldif" />
+		<Unit filename="slapd/schema/openldap.schema" />
+		<Unit filename="slapd/schema/pmi.ldif" />
+		<Unit filename="slapd/schema/pmi.schema" />
+		<Unit filename="slapd/schema/ppolicy.ldif" />
+		<Unit filename="slapd/schema/ppolicy.schema" />
+		<Unit filename="slapd/schema_check.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/schema_init.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/schema_prep.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/schemaparse.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/search.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/sets.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/sets.h" />
+		<Unit filename="slapd/shell-backends/Makefile" />
+		<Unit filename="slapd/shell-backends/Makefile.in" />
+		<Unit filename="slapd/shell-backends/passwd-shell.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/shell-backends/shellutil.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/shell-backends/shellutil.h" />
+		<Unit filename="slapd/sl_malloc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/slap.h" />
+		<Unit filename="slapd/slapacl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/slapadd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/slapauth.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/slapcat.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/slapcommon.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/slapcommon.h" />
+		<Unit filename="slapd/slapd.conf" />
+		<Unit filename="slapd/slapd.ldif" />
+		<Unit filename="slapd/slapdn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/slapi/Makefile" />
+		<Unit filename="slapd/slapi/Makefile.in" />
+		<Unit filename="slapd/slapi/TODO" />
+		<Unit filename="slapd/slapi/plugin.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/slapi/printmsg.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/slapi/proto-slapi.h" />
+		<Unit filename="slapd/slapi/slapi.h" />
+		<Unit filename="slapd/slapi/slapi_dn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/slapi/slapi_ext.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/slapi/slapi_ops.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/slapi/slapi_overlay.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/slapi/slapi_pblock.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/slapi/slapi_utils.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/slapindex.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/slappasswd.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/slapschema.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/slaptest.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/starttls.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/str2filter.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/syncrepl.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/syntax.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/txn.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/unbind.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/user.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/value.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="slapd/zn_malloc.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

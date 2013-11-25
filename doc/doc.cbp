@@ -1,0 +1,1087 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="doc" />
+		<Option makefile_is_custom="1" />
+		<Option execution_dir="." />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="all">
+				<Option output="doc" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command="$make -f $makefile" />
+					<CompileFile command="$make -f $makefile $file" />
+					<Clean command="$make -f $makefile clean" />
+					<DistClean command="$make -f $makefile distclean$target" />
+					<AskRebuildNeeded command="$make -q -f $makefile" />
+					<SilentBuild command="$make -s -f $makefile" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Makefile">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Makefile.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="devel/README">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="devel/args">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="devel/template.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="devel/todo">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="devel/toolargs">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="devel/utfconv.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/README">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-behera-ldap-password-policy-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-chu-ldap-csn-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-chu-ldap-ldapi-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-chu-ldap-xordered-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-haripriya-dynamicgroup-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-howard-rfc2307bis-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-ietf-ldapext-acl-model-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-ietf-ldapext-ldap-c-api-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-ietf-ldapext-ldapv3-dupent-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-ietf-ldapext-ldapv3-vlv-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-ietf-ldapext-locate-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-joslin-config-schema-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-lachman-laser-ldap-mail-routing-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-legg-ldap-acm-admin-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-legg-ldap-acm-bac-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-legg-ldap-admin-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-legg-ldap-transfer-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-masarati-ldap-deref-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-masarati-ldap-whatfailed-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-sermersheim-ldap-chaining-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-sermersheim-ldap-csn-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-sermersheim-ldap-distproc-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-sermersheim-ldap-subordinate-scope-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-wahl-ldap-session-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-zeilenga-ldap-c-api-concurrency-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-zeilenga-ldap-dontusecopy-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-zeilenga-ldap-noop-xx.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="drafts/draft-zeilenga-ldap-relax.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/README">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/Makefile">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/README.spellcheck">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/abstract.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/access-control.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/admin.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/allmail-en.png">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/allusersgroup-en.png">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/appendix-changes.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/appendix-common-errors.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/appendix-configs.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/appendix-contrib.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/appendix-deployments.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/appendix-ldap-result-codes.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/appendix-recommended-versions.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/appendix-upgrading.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/aspell.en.pws">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/backends.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/config.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/config_dit.png">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/config_local.png">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/config_ref.png">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/config_repl.png">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/dbtools.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/delta-syncrepl.png">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/dual_dc.png">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/glossary.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/guide.book">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/guide.html">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/guide.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/index.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/install.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/intro.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/intro_dctree.png">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/intro_tree.png">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/ldap-sync-refreshandpersist.png">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/ldap-sync-refreshonly.png">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/limits.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/maintenance.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/master.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/monitoringslapd.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/n-way-multi-master.png">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/overlays.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/preface.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/push-based-complete.png">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/push-based-standalone.png">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/quickstart.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/referrals.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/refint.png">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/replication.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/runningslapd.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/sasl.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/schema.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/security.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/set-following-references.png">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/set-memberUid.png">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/set-recursivegroup.png">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/slapdconf2.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/slapdconfig.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/title.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/tls.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/troubleshooting.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/admin/tuning.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/LDAPlogo.gif">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/LDAPwww.gif">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/README.fonts">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/allmail-en.svg">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/allusersgroup-en.svg">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/config_dit.dia">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/config_local.dia">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/config_ref.dia">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/config_repl.dia">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/delta-syncrepl.dia">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/delta-syncrepl.svg">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/dual_dc.svg">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/intro_dctree.dia">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/intro_tree.dia">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/ldap-sync-refreshandpersist.svg">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/ldap-sync-refreshonly.svg">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/mirrormode.dia">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/n-way-multi-master.dia">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/n-way-multi-master.svg">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/push-based-complete.svg">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/push-based-standalone.svg">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/refint.svg">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/set-following-references.svg">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/set-memberUid.svg">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/set-recursivegroup.svg">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/syncrepl-firewalls.dia">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/syncrepl-pull.dia">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/syncrepl-push.dia">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/images/src/syncrepl.dia">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/plain.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/preamble.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/release/autoconf-install.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/release/autoconf.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/release/copyright-plain.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/release/copyright.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/release/install.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/release/license-plain.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="guide/release/license.sdf">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="install/configure">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/Makefile">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/Makefile.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/Project">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man1/Makefile">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man1/Makefile.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man1/ldapcompare.1">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man1/ldapdelete.1">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man1/ldapexop.1">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man1/ldapmodify.1">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man1/ldapmodify.1.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man1/ldapmodrdn.1">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man1/ldappasswd.1">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man1/ldapsearch.1">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man1/ldapurl.1">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man1/ldapwhoami.1">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/Deprecated">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/Makefile">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/Makefile.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/lber-decode.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/lber-decode.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/lber-encode.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/lber-encode.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/lber-memory.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/lber-sockbuf.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/lber-types.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/lber-types.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_abandon.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_abandon.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_add.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_add.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_bind.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_bind.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_compare.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_compare.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_controls.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_controls.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_delete.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_delete.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_dup.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_dup.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_error.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_error.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_extended_operation.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_extended_operation.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_first_attribute.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_first_attribute.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_first_entry.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_first_entry.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_first_message.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_first_message.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_first_reference.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_first_reference.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_get_dn.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_get_dn.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_get_option.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_get_option.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_get_values.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_get_values.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_memory.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_memory.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_modify.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_modify.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_modrdn.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_modrdn.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_open.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_open.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_parse_reference.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_parse_result.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_parse_result.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_parse_sort_control.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_parse_vlv_control.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_rename.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_rename.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_result.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_result.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_schema.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_schema.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_search.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_search.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_sort.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_sort.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_sync.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_tls.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_tls.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_url.3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man3/ldap_url.3.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/Makefile">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/Makefile.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/ldap.conf.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/ldif.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapd-bdb.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapd-bdb.5.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapd-config.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapd-dnssrv.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapd-ldap.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapd-ldbm.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapd-ldif.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapd-mdb.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapd-meta.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapd-monitor.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapd-ndb.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapd-null.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapd-passwd.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapd-perl.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapd-relay.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapd-shell.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapd-sock.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapd-sock.5.links">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapd-sql.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapd.access.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapd.backends.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapd.conf.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapd.overlays.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapd.plugin.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapo-accesslog.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapo-auditlog.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapo-chain.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapo-collect.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapo-constraint.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapo-dds.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapo-dyngroup.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapo-dynlist.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapo-memberof.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapo-pbind.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapo-pcache.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapo-ppolicy.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapo-refint.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapo-retcode.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapo-rwm.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapo-sssvlv.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapo-syncprov.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapo-translucent.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapo-unique.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man5/slapo-valsort.5">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man8/Makefile">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man8/Makefile.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man8/slapacl.8">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man8/slapadd.8">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man8/slapauth.8">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man8/slapcat.8">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man8/slapd.8">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man8/slapdn.8">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man8/slapindex.8">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man8/slappasswd.8">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man8/slapschema.8">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="man/man8/slaptest.8">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/INDEX">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc2079.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc2247.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc2293.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc2294.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc2307.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc2377.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc2589.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc2649.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc2696.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc2713.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc2714.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc2798.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc2849.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc2891.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc2926.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc3045.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc3062.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc3088.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc3112.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc3296.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc3663.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc3671.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc3672.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc3673.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc3687.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc3698.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc3703.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc3712.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc3727.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc3829.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc3866.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc3876.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc3909.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc3928.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4013.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4370.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4373.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4403.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4510.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4511.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4512.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4513.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4514.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4515.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4516.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4517.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4518.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4519.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4520.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4521.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4522.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4523.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4524.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4525.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4526.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4527.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4528.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4529.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4530.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4531.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4532.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc4533.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc5020.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rfc/rfc5805.txt">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

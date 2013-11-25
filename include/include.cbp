@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="include" />
+		<Option makefile_is_custom="1" />
+		<Option execution_dir="." />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="all">
+				<Option output="include" prefix_auto="1" extension_auto="1" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<MakeCommands>
+					<Build command="$make -f $makefile" />
+					<CompileFile command="$make -f $makefile $file" />
+					<Clean command="$make -f $makefile clean" />
+					<DistClean command="$make -f $makefile distclean$target" />
+					<AskRebuildNeeded command="$make -q -f $makefile" />
+					<SilentBuild command="$make -s -f $makefile" />
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="Makefile">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="Makefile.in">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ac/alloca.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ac/assert.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ac/bytes.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ac/crypt.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ac/ctype.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ac/dirent.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ac/errno.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ac/fdset.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ac/localize.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ac/param.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ac/regex.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ac/setproctitle.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ac/signal.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ac/socket.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ac/stdarg.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ac/stdlib.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ac/string.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ac/sysexits.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ac/syslog.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ac/termios.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ac/time.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ac/unistd.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ac/wait.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="avl.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="getopt-compat.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="lber.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="lber_pvt.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="lber_types.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="lber_types.hin">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ldap.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ldap_cdefs.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ldap_config.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ldap_config.hin">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ldap_defaults.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ldap_features.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ldap_features.hin">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ldap_int_thread.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ldap_log.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ldap_pvt.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ldap_pvt_thread.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ldap_pvt_uc.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ldap_queue.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ldap_rq.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ldap_schema.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ldap_utf8.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="ldif.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="lutil.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="lutil_hash.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="lutil_ldap.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="lutil_lockf.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="lutil_md5.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="lutil_meter.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="lutil_sha1.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="portable.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="portable.hin">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="rewrite.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="slapi-plugin.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="stamp-h1">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="stamp-h2">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="stamp-h3">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="sysexits-compat.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
